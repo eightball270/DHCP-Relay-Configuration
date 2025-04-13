@@ -1,4 +1,4 @@
-# DHCP-Relay-Configuration
+# DHCP Relay Configuration
 What if some clients are not directly connected to the DHCP server? Almost similar to the [previous project](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server?tab=readme-ov-file#basic-vlan-and-dhcp-server), but in this project using 2 routers in order to configure **DHCP relay**. So some clients still get automatic IP configuration even though they are not directly connected to the DHCP server.
 
 ## Technology Used
@@ -26,7 +26,7 @@ What if some clients are not directly connected to the DHCP server? Almost simil
 
 ![DHCP Relay.png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay.png)
 
-[Project Link](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay.pkt)
+[Project File Link](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay.pkt)
 
 The DHCP results of the representative VLAN are as follows:
 
@@ -36,7 +36,7 @@ The DHCP results of the representative VLAN are as follows:
 
 ![DHCP Relay (MikroTik).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(MikroTik).png)
 
-[Project Link](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay.gns3project.7z)
+[Project File Link](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay.gns3project.7z)
 
 The DHCP results of the representative VLAN are as follows:
 
