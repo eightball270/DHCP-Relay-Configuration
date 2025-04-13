@@ -1,2 +1,43 @@
 # DHCP-Relay-Configuration
 What if some clients are not directly connected to the DHCP server? Almost similar to the [previous project](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server?tab=readme-ov-file#basic-vlan-and-dhcp-server), but in this project using 2 routers in order to configure **DHCP relay**. So some clients still get automatic IP configuration even though they are not directly connected to the DHCP server.
+
+## Technology Used
+1. Cisco Packet Tracer v8.2.2
+2. GNS3 (MikroTik)
+
+## Requirements
+1. 2 Routers and a Switch
+2. Client PCs
+3. Access Point and Client Wireless devices*
+
+*) optional if creating a WLAN network, but can be replaced with a regular LAN (Client PCs)
+
+## Configuration Completed
+1. Divide into 4 vlans on the router and switch
+2. Assign an IP address to each router as a gateway
+3. Inter-router connection
+4. DHCP server on first router (R1)
+5. Static routing on router R1 to the network addresses of some clients
+6. DHCP relay on second router (R2)
+7. SSID and password on a Access Point (for WLAN network)
+
+## DHCP Relay
+### Cisco
+
+![DHCP Relay.png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay.png)
+
+[Project Link](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay.pkt)
+
+The DHCP results of the representative VLAN are as follows:
+
+![DHCP Relay (1).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(1).png) ![DHCP Relay (2).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(2).png) ![DHCP Relay (3).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(3).png) ![DHCP Relay (4).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(4).png)
+
+## MikroTik
+
+![]()
+
+[]()
+
+The DHCP results of the representative VLAN are as follows:
+
+![]() ![]() ![]() ![]()
