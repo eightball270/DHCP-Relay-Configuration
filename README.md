@@ -10,7 +10,7 @@ What if some clients are not directly connected to the DHCP server? Almost simil
 2. Client PCs
 3. Access Point and Client Wireless devices*
 
-*) optional if creating a WLAN network, but can be replaced with a regular LAN (Client PCs)
+*) optional if creating a WLAN connection, but can be replaced with a regular LAN (Client PCs)
 
 ## Configuration Completed
 1. Divide into 4 vlans on the router and switch
@@ -19,7 +19,7 @@ What if some clients are not directly connected to the DHCP server? Almost simil
 4. DHCP server on first router (R1)
 5. Static routing on router R1 to the network addresses of some clients
 6. DHCP relay on second router (R2) that is directly connected to some clients
-7. SSID and password on a Access Point (for WLAN network)
+7. SSID and password on a Access Point (for WLAN connection)
 
 ## DHCP Relay
 ### Cisco
