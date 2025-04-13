@@ -18,7 +18,7 @@ What if some clients are not directly connected to the DHCP server? Almost simil
 3. Inter-router connection
 4. DHCP server on first router (R1)
 5. Static routing on router R1 to the network addresses of some clients
-6. DHCP relay on second router (R2)
+6. DHCP relay on second router (R2) that is directly connected to some clients
 7. SSID and password on a Access Point (for WLAN network)
 
 ## DHCP Relay
