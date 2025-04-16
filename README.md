@@ -1,8 +1,8 @@
 # DHCP Relay Configuration
-What if some clients are not directly connected to the DHCP server? Almost similar to the [previous project](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server?tab=readme-ov-file#basic-vlan-and-dhcp-server), but in this project using 2 routers in order to configure **DHCP relay**. So some clients still get automatic IP configuration even though they are not directly connected to the DHCP server.
+What if some clients are not directly connected to the DHCP server? Almost similar to the [previous simulation](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server?tab=readme-ov-file#basic-vlan-and-dhcp-server), but in this simulation using 2 routers in order to configure **DHCP relay**. So some clients still get automatic IP configuration even though they are not directly connected to the DHCP server.
 
 ## Technology Used
-1. Cisco Packet Tracer v8.2.2
+1. Cisco Packet Tracer
 2. GNS3 (MikroTik)
 
 ## Requirements
@@ -24,20 +24,20 @@ What if some clients are not directly connected to the DHCP server? Almost simil
 ## DHCP Relay
 ### Cisco
 
-![DHCP Relay.png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay.png)
+![DHCP Relay.png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/Cisco/DHCP%20Relay.png)
 
-[Project File Link](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay.pkt)
+[Project File Link](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/Cisco/DHCP%20Relay.pkt)
 
 The DHCP results of the representative VLAN are as follows:
 
-![DHCP Relay (1).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(1).png) ![DHCP Relay (2).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(2).png) ![DHCP Relay (3).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(3).png) ![DHCP Relay (4).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(4).png)
+![DHCP Relay (1).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/Cisco/DHCP%20Relay%20(1).png) ![DHCP Relay (2).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/Cisco/DHCP%20Relay%20(2).png) ![DHCP Relay (3).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/Cisco/DHCP%20Relay%20(3).png) ![DHCP Relay (4).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/Cisco/DHCP%20Relay%20(4).png)
 
 ## MikroTik
 
-![DHCP Relay (MikroTik).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(MikroTik).png)
+![DHCP Relay (MikroTik).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/MikroTik/DHCP%20Relay%20(MikroTik).png)
 
-[Project File Link](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay.gns3project.7z)
+[Project File Link](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/MikroTik/DHCP%20Relay.gns3project.7z)
 
 The DHCP results of the representative VLAN are as follows:
 
-![DHCP Relay (MikroTik) (1).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(MikroTik)%20(1).png) ![DHCP Relay (MikroTik) (2).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(MikroTik)%20(2).png) ![DHCP Relay (MikroTik) (3).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(MikroTik)%20(3).png) ![DHCP Relay (MikroTik) (4).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/DHCP%20Relay%20(MikroTik)%20(4).png)
+![DHCP Relay (MikroTik) (1).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/MikroTik/DHCP%20Relay%20(MikroTik)%20(1).png) ![DHCP Relay (MikroTik) (2).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/MikroTik/DHCP%20Relay%20(MikroTik)%20(2).png) ![DHCP Relay (MikroTik) (3).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/MikroTik/DHCP%20Relay%20(MikroTik)%20(3).png) ![DHCP Relay (MikroTik) (4).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/MikroTik/DHCP%20Relay%20(MikroTik)%20(4).png)
