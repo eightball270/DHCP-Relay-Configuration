@@ -1,4 +1,4 @@
-# DHCP Relay Configuration
+# DHCP Relay Configurationn
 What if some clients are not directly connected to the DHCP server? Almost similar to the [previous simulation](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server?tab=readme-ov-file#basic-vlan-and-dhcp-server), but in this simulation using 2 routers in order to configure **DHCP relay**. So some clients still get automatic IP configuration even though they are not directly connected to the DHCP server.
 
 ## Technology Used
