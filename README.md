@@ -1,5 +1,5 @@
 # DHCP Relay Configuration
-In cases where some clients are not directly connected to the DHCP server, a similar approach to the [previous simulation](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server?tab=readme-ov-file#basic-vlan-and-dhcp-server) is applied. However, this simulation uses 2 routers to configure DHCP relay, allowing clients to receive automatic IP configuration even when not directly connected to the DHCP server.
+In cases where some clients are not directly connected to the DHCP server, a similar approach to the [previous simulation](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server?tab=readme-ov-file#basic-vlan-and-dhcp-server) is applied. However, this simulation uses 2 routers to configure **DHCP relay**, allowing clients to receive automatic IP configuration even when not directly connected to the DHCP server.
 
 ## Technology Used
 1. Cisco Packet Tracer
