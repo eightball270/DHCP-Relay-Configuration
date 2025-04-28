@@ -36,7 +36,7 @@ The DHCP results of the representative VLAN are as follows:
 
 ![DHCP Relay (MikroTik).png](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/MikroTik/DHCP%20Relay%20(MikroTik).png)
 
-[Project File Link (GNS3)](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/MikroTik/DHCP%20Relay.gns3project.7z) (extract the file first)
+[Project File Link (GNS3)](https://github.com/eightball270/DHCP-Relay-Configuration/blob/main/MikroTik/DHCP%20Relay%20(MikroTik).gns3project.rar) (extract the file first)
 
 The DHCP results of the representative VLAN are as follows:
 
