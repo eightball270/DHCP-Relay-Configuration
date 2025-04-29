@@ -12,7 +12,7 @@ In cases where some clients are not directly connected to the DHCP server, a sim
 
 *) optional if creating a WLAN connection, but can be replaced with a regular LAN (Client PCs)
 
-## Configuration Completed
+## Configuration Done
 1. Divide into 4 vlans on the router and switch
 2. Assign an IP address to each router as a gateway
 3. Inter-router connection
