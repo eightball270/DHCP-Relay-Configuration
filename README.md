@@ -1,11 +1,11 @@
 # DHCP Relay Configuration
 In cases where some clients are not directly connected to the DHCP server, a similar approach to the [previous simulation](https://github.com/eightball270/Basic-VLAN-and-DHCP-Server?tab=readme-ov-file#basic-vlan-and-dhcp-server) is applied. However, this simulation uses 2 routers to configure **DHCP relay**, allowing clients to receive automatic IP configuration even when not directly connected to the DHCP server.
 
-## Technology Used
+## Simulator Used
 1. Cisco Packet Tracer
 2. GNS3 (MikroTik)
 
-## Requirements
+## Requirement Nodes
 1. 2 Routers and a Switch
 2. Client PCs
 3. Access Point and Client Wireless devices*
@@ -13,7 +13,7 @@ In cases where some clients are not directly connected to the DHCP server, a sim
 *) optional if creating a WLAN connection, but can be replaced with a regular LAN (Client PCs)
 
 ## Configuration Done
-1. Divide into 4 vlans on the router and switch
+1. Divide into 4 VLANs on the router and switch
 2. Assign an IP address to each router as a gateway
 3. Inter-router connection
 4. DHCP server on first router (R1)
